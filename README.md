@@ -1,32 +1,9 @@
-# NYU22SummerSchoolML 2022
-
-## GOOGLE DRIVE FINAL PROJECT
-https://drive.google.com/drive/folders/1o-bEJzBgUCm0MpU5O6RrCzqNdEgARJ7i?usp=sharing
-
-## Post-program Survey
-https://docs.google.com/forms/d/e/1FAIpQLSd-SnqP-LE1fPL2hnRez-_heCMz138ue3mCA1tSvtWN_TM8_w/viewform
-
-
-## Edited code for loading the cats vs dogs dataset
-setattr(tfds.image_classification.cats_vs_dogs, '_URL',"https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_5340.zip")
-(train_ds, test_ds), metadata = tfds.load('cats_vs_dogs', split=['train[:35%]', 'train[90%:95%]'],
-                                          with_info=True, as_supervised=True, shuffle_files=True)
-
-
-## GOOGLE DRIVE
-https://drive.google.com/drive/folders/1tYQIiNfjIyMhuY9Xhgse6noHWPnvZtRN?usp=sharing
-
-## Discord channel (homework help/discussion/handouts)
-https://discord.gg/ZePcEump
-
-## Google sheet for midproject group registration: 
-https://docs.google.com/spreadsheets/d/1YfWuw4guXyeR3sR1Q0a2GdLiMiEhYKCx8hdDji51qXM/edit?usp=sharing
+# Machine Learning Materials
 
 ## How to download/use csv file from the github in your colab
 1. Use in the colab: click the csv file -> click 'Raw' -> Copy the link of new window -> The link should be like https://raw.githubusercontent.com/.. -> Use this in your code in colab
 2. Download: MacOS/Linux: wget https://raw.githubusercontent.com/..  
-Note: to use 'wget' command, you have to first install wget.  
-
+Note: to use 'wget' command, you have to first install wget.
 
 ## Day 1 Intro to Ml & Matrices
 - [Slides](https://github.com/xchen793/NYU22SummerSchoolML/blob/main/Day1/Day%20One.pdf)
